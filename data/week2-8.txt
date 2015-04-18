@@ -1,0 +1,146 @@
+Week = 2
+Date = 23/08/2014
+Time = 1245
+Aston Villa | Newcastle United
+Time = 1500
+Chelsea | Leicester City
+Crystal Palace | West Ham United
+Southampton | West Bromwich Albion
+Swansea City | Burnley
+Time = 1730
+Everton | Arsenal
+Date = 24/08/2014
+Time = 1330
+Hull City | Stoke City
+Tottenham Hotspur | Queens Park Rangers
+Time = 1600
+Sunderland | Manchester United
+Date = 25/08/2014
+Time = 2000
+Manchester City | Liverpool
+Week = 3
+Date = 30/08/2014
+Time = 1245
+Burnley | Manchester United
+Time = 1500
+Manchester City | Stoke City
+Newcastle United | Crystal Palace
+Queens Park Rangers | Sunderland
+Swansea City | West Bromwich Albion
+West Ham United | Southampton
+Time = 1730
+Everton | Chelsea
+Date = 31/08/2014
+Time = 1330
+Aston Villa | Hull City
+Tottenham Hotspur | Liverpool
+Leicester City | Arsenal
+Week = 4
+Date = 13/09/2014
+Time = 1245
+Arsenal | Manchester City
+Time = 1500
+Chelsea | Swansea City
+Crystal Palace | Burnley
+Southampton | Newcastle United
+Stoke City | Leicester City
+Sunderland | Tottenham Hotspur
+West Bromwich Albion | Everton
+Time = 1730
+Liverpool | Aston Villa
+Date = 14/09/2014
+Time = 1600
+Manchester United | Queens Park Rangers
+Date = 15/08/2014
+Time = 2000
+Hull City | West Ham United
+Week = 5
+Date = 20/09/2014
+Time = 1245
+Queens Park Rangers | Stoke City
+Time = 1500
+Aston Villa | Arsenal
+Burnley | Sunderland
+Newcastle United | Hull City
+Swansea City | Southampton
+Tottenham Hotspur | West Bromwich Albion
+Time = 1730
+West Ham United | Liverpool
+Date = 21/09/2014
+Time = 1330
+Leicester City | Manchester United
+Time = 1600
+Everton | Crystal Palace
+Manchester City | Chelsea
+Week = 6
+Date = 27/09/2014
+Time = 1245
+Liverpool | Everton
+Time = 1500
+Chelsea | Aston Villa
+Crystal Palace | Leicester City
+Hull City | Manchester City
+Manchester United | West Ham United
+Southampton | Queens Park Rangers
+Sunderland | Swansea City
+Time = 1730
+Arsenal | Tottenham Hotspur
+Date = 28/09/2014
+Time = 1600
+West Bromwich Albion | Burnley
+Date = 29/09/2014
+Time = 2000
+Stoke City | Newcastle United
+Week = 7
+Date = 04/10/2014
+Time = 1500
+Hull City | Crystal Palace
+Leicester City | Burnley
+Liverpool | West Bromwich Albion
+Sunderland | Stoke City
+Swansea City | Newcastle United
+Tottenham Hotspur | Southampton
+Time = 1730
+Aston Villa | Manchester City
+Date = 05/10/2014
+Time = 1200
+Manchester United | Everton
+Time = 1405
+Chelsea | Arsenal
+Time = 1615
+West Ham United | Queens Park Rangers
+Week = 8
+Date = 18/10/2014
+Time = 1245
+Manchester City | Tottenham Hotspur
+Time = 1500
+Arsenal | Hull City
+Burnley | West Ham United
+Crystal Palace | Chelsea
+Everton | Aston Villa
+Newcastle United | Leicester City
+Southampton | Sunderland
+Date = 19/10/2014
+Time = 1330
+Queens Park Rangers | Liverpool
+Time = 1600
+Stoke City | Swansea City
+Date = 20/10/2014
+Time = 2000
+West Bromwich Albion | Manchester United
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

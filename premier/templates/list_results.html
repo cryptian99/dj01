@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    {% load staticfiles %}
+    <title>{{ title }}:{{ STATIC_URL }}:</title>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}premier.css" />
+</head>
+<body>
+<h1>{{ title }} - :{{ STATIC_URL }}:</h1>
+<table border="3" cellspacing="4">
+    <tr><td><b>Match</b></td><td><b>Date/Time</b></td><td align="right"><b>Home</b></td><td align="center"><b>Score</b></td><td><b>Away</b></td><td><b>Points</b></td></tr>
+    {% for result in results %}
+        <tr><td>{{ result.0 }}</td><td>{{ result.1 }}</td>
+            <td align="right">{{ result.2 }}</td><td align="center">{{ result.4 }} - {{ result.5}}</td>
+            <td>{{ result.3 }}</td><td align="center">{{ result.7 }}</td><td align="center">&nbsp{{ result.8 }}&nbsp</td></tr>
+    {% endfor %}
+</table>
+<h2>Summary:</h2>
+<table border="3" cellspacing="4">
+       <tr align="center"><td><b>&nbspW&nbsp</b></td><td><b>&nbspD&nbsp</b></td><td><b>&nbspL&nbsp</b></td><td><b>&nbspF&nbsp</b></td>
+           <td><b>&nbspA&nbsp</b></td><td><b>&nbspGD&nbsp</b></td><td><b>Points</b></td></tr>
+    <tr align="center"><td>{{ summary.0 }}</td><td>{{ summary.1 }}</td><td>{{ summary.2 }}</td><td>{{ summary.3 }}</td>
+        <td>{{ summary.4 }}</td><td>{{ summary.5 }}</td><td>{{ summary.6 }}</td></tr>
+
+</table>
+</body>
+</html>

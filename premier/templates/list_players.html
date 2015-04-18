@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<table border="3" cellspacing="4">
+    {% for player in players %}
+        <tr><td>{{ player.0 }}</td><td>{{ player.1 }} {{ player.2 }}</td><!--
+            <td><button name="View" type=button value="VIEW={{ player.0 }}" style="background:green">View</button></td>
+            <td><button name="Edit" type=button value="EDIT={{ player.0 }}" style="background:orange">Edit</button></td>
+            <td><button name="Delete" type=button value="DEL={{ player.0}}" style="background:red">Delete</button></td>-->
+            <td><a href="view/{{ player.0 }}/">View</a></td>
+            <td><a href="edit/{{ player.0 }}/">Edit</a></td>
+            <td><a href="delete/{{ player.0 }}/">Delete</a></td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

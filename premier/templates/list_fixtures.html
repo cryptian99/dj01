@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    {% load staticfiles %}
+    <title>{{ title }}:{{ STATIC_URL }}:</title>
+    <!--
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}premier.css" />
+    -->
+</head>
+<body>
+<h1>{{ title }} - :{{ STATIC_URL }}:</h1>
+<table border="3" cellspacing="4">
+    <tr><td><b>Week</b></td><td><b>Date</b></td><td><b>Time</b></td><td align="right"><b>Home</b></td><td align="center"><b>Score</b></td><td><b>Away</b></td></tr>
+    {% for fixture in fixtures %}
+        <tr><td align="right">{{ fixture.0 }}</td><td>{{ fixture.1 }}</td><td>{{ fixture.2 }}</td>
+            <td align="right">{{ fixture.4 }}</td><td align="center">{{ fixture.7 }} - {{ fixture.8}}</td>
+            <td>{{ fixture.6 }}</td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

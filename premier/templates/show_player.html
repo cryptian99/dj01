@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<hr>
+<table>
+    <tr><td align="center"><b>In squad</b></td>
+        <td><b>Starts</b></td>
+        <td><b>As sub</b></td><td><b>Subbed</b></td>
+        <td><b>Scored</b></td><td><b>Own goals</b></td>
+        <td><b>Minutes</b></td>
+        <td><b>Cautions</b></td><td><b>Sent Off</b></td></tr>
+    <tr>
+        <td>{{ player.9 }}</td>
+        <td>{{ player.5 }}</td>
+        <td>{{ player.10 }}</td>
+        <td>{{ player.11 }}</td>
+        <td>{{ player.7 }}</td>
+        <td>{{ player.8 }}</td>
+        <td>{{ player.6 }}</td>
+        <td>{{ player.12 }}</td>
+        <td>{{ player.13 }}</td>
+    </tr>
+</table>
+<h2>Match Analysis</h2>
+<table border="3" cellspacing="4">
+    {% for game in games %}
+        <tr><td>{{ game.0 }}</td><td>{{ game.1 }}</td><td>{{ game.2 }}</td><td>{{ game.3 }}</td><td>{{ game.4 }}</td><td>{{ game.5 }}</td></tr>
+    {% endfor %}
+</table>
+
+<hr>
+</body>
+</html>

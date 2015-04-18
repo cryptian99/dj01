@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<table border="3" cellspacing="4">
+    {% for team in teams %}
+        <tr><td>{{ team.0 }}</td><td><a href="{{ team.2 }}">{{ team.1 }}</a></td><td><a href="{{ team.3 }}">Results</a></td>
+            <td><a href="{{ team.4 }}">Fixtures</a></td>
+            <td><a href="{{ team.5 }}">Team Stats</a></td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
