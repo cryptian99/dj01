@@ -26,17 +26,11 @@ def connect_to_db(name, provider='sqlite', file=None):
 			print 'Unable to either connect or to open the db %s, reason "%s"' % (name, repr(ex))
 			return(False)
 		return(conn, cur)
-	elif provider == 'mysql':
-		print 'import %s not implemented yet' % provider
-		return(False)	
-	elif provider == 'db2':
-		print 'import %s not implemented yet' % provider
-		return(False)	
-	elif provider == 'postgresql':
+	elif provider in [ 'mysql', 'db2', 'postgresql' ]:
 		print 'import %s not implemented yet' % provider
 		return(False)	
 	else:
-		print 'Provider %s not recognised/supported'
+		print 'Provider %s not recognised/supported' % provider
 		return(False)	
 	return(False)
 
